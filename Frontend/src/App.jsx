@@ -8,7 +8,11 @@ function App() {
     <>
       <div>
         <BrowserRouter>
-        <Navbar/>
+          <Navbar/>
+          <Routes>
+            
+          </Routes>
+    
         
         </BrowserRouter>
         
