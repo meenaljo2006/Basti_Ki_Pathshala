@@ -1,24 +1,13 @@
-import { BrowserRouter,Routes, Route } from 'react-router-dom'
+
+import Main from './Components/Main/Main'
 import Navbar from './Components/Navbar/Navbar'
-import './App.css'
 
-function App() {
-
+const App = () => {
   return (
-    <>
-      <div>
-        <BrowserRouter>
-          <Navbar/>
-          <Routes>
-            
-          </Routes>
-    
-        
-        </BrowserRouter>
-        
-      </div>
-      
-    </>
+    <div>
+      <Navbar/>
+      <Main/>
+    </div>
   )
 }
 
